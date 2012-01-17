@@ -99,7 +99,7 @@ LANGUAGES = (
     ('tet', gettext('Tetum')),
     ('pt', gettext('Portugese')),
     )
-MODELTRANSLATION_TRANSLATION_REGISTRY = "iade.translation"
+MODELTRANSLATION_TRANSLATION_REGISTRY = "mezzanine_modeltranslation.translation"
 
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
 # are displayed for error pages. Should always be set to ``False`` in

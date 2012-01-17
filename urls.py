@@ -6,7 +6,7 @@ from mezzanine.core.views import direct_to_template
 admin.autodiscover()
 
 from mezzanine.blog.models import BlogPost
-from iade._admin import TranslatedBlogPostAdmin
+from mezzanine_modeltranslation.translated_admin import TranslatedBlogPostAdmin
 
 # admin.autodiscover()
 admin.site.unregister(BlogPost)

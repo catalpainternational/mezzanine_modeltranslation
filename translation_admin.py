@@ -18,7 +18,7 @@ class TranslatedBlogPostAdmin(BlogPostAdmin, TranslationAdmin):
         if db_field.name in trans_opts.fields:
             #db_field.editable = False
             db_field.editable = True  # Setting this to False can break Mezzanine's front end editor
-            
+
             if field.required:
                 field.required = False
                 field.blank = True
